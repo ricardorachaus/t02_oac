@@ -21,7 +21,7 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 112 -136 128 32)
+	(rect 568 -136 584 32)
 	(text "INPUT" (rect 6 125 16 153)(font "Arial" (font_size 6))(vertical))
 	(text "clock" (rect 5 5 17 30)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -567,7 +567,7 @@ refer to the applicable agreement for further details.
 	(rotate180)
 )
 (symbol
-	(rect 152 32 344 608)
+	(rect 608 32 800 608)
 	(text "reg32" (rect 5 0 40 19)(font "Intel Clear" (font_size 8)))
 	(text "inst2" (rect 8 555 30 572)(font "Intel Clear" ))
 	(port
@@ -1030,7 +1030,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 624 32 800 608)
+	(rect 152 48 328 624)
 	(text "pc4" (rect 5 0 27 19)(font "Intel Clear" (font_size 8)))
 	(text "inst5" (rect 8 555 30 572)(font "Intel Clear" ))
 	(port
@@ -1486,138 +1486,6 @@ refer to the applicable agreement for further details.
 	)
 )
 (connector
-	(pt 344 64)
-	(pt 624 64)
-)
-(connector
-	(pt 344 80)
-	(pt 624 80)
-)
-(connector
-	(pt 344 96)
-	(pt 624 96)
-)
-(connector
-	(pt 344 112)
-	(pt 624 112)
-)
-(connector
-	(pt 344 128)
-	(pt 624 128)
-)
-(connector
-	(pt 344 144)
-	(pt 624 144)
-)
-(connector
-	(pt 344 160)
-	(pt 624 160)
-)
-(connector
-	(pt 344 176)
-	(pt 624 176)
-)
-(connector
-	(pt 344 192)
-	(pt 624 192)
-)
-(connector
-	(pt 344 208)
-	(pt 624 208)
-)
-(connector
-	(pt 344 224)
-	(pt 624 224)
-)
-(connector
-	(pt 344 240)
-	(pt 624 240)
-)
-(connector
-	(pt 344 256)
-	(pt 624 256)
-)
-(connector
-	(pt 344 272)
-	(pt 624 272)
-)
-(connector
-	(pt 344 288)
-	(pt 624 288)
-)
-(connector
-	(pt 344 304)
-	(pt 624 304)
-)
-(connector
-	(pt 344 320)
-	(pt 624 320)
-)
-(connector
-	(pt 344 336)
-	(pt 624 336)
-)
-(connector
-	(pt 344 352)
-	(pt 624 352)
-)
-(connector
-	(pt 344 368)
-	(pt 624 368)
-)
-(connector
-	(pt 344 384)
-	(pt 624 384)
-)
-(connector
-	(pt 344 400)
-	(pt 624 400)
-)
-(connector
-	(pt 344 416)
-	(pt 624 416)
-)
-(connector
-	(pt 344 432)
-	(pt 624 432)
-)
-(connector
-	(pt 344 448)
-	(pt 624 448)
-)
-(connector
-	(pt 344 464)
-	(pt 624 464)
-)
-(connector
-	(pt 344 480)
-	(pt 624 480)
-)
-(connector
-	(pt 344 496)
-	(pt 624 496)
-)
-(connector
-	(pt 344 512)
-	(pt 624 512)
-)
-(connector
-	(pt 344 528)
-	(pt 624 528)
-)
-(connector
-	(pt 344 544)
-	(pt 624 544)
-)
-(connector
-	(pt 344 560)
-	(pt 624 560)
-)
-(connector
-	(pt 120 32)
-	(pt 120 64)
-)
-(connector
 	(pt 72 32)
 	(pt 72 80)
 )
@@ -1746,10 +1614,6 @@ refer to the applicable agreement for further details.
 	(pt 72 560)
 )
 (connector
-	(pt 120 64)
-	(pt 152 64)
-)
-(connector
 	(pt 72 80)
 	(pt 152 80)
 )
@@ -1876,6 +1740,142 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 72 576)
 	(pt 152 576)
+)
+(connector
+	(pt 328 80)
+	(pt 608 80)
+)
+(connector
+	(pt 328 96)
+	(pt 608 96)
+)
+(connector
+	(pt 328 112)
+	(pt 608 112)
+)
+(connector
+	(pt 328 128)
+	(pt 608 128)
+)
+(connector
+	(pt 328 144)
+	(pt 608 144)
+)
+(connector
+	(pt 328 160)
+	(pt 608 160)
+)
+(connector
+	(pt 328 176)
+	(pt 608 176)
+)
+(connector
+	(pt 328 192)
+	(pt 608 192)
+)
+(connector
+	(pt 328 208)
+	(pt 608 208)
+)
+(connector
+	(pt 328 224)
+	(pt 608 224)
+)
+(connector
+	(pt 328 240)
+	(pt 608 240)
+)
+(connector
+	(pt 328 256)
+	(pt 608 256)
+)
+(connector
+	(pt 328 272)
+	(pt 608 272)
+)
+(connector
+	(pt 328 288)
+	(pt 608 288)
+)
+(connector
+	(pt 328 304)
+	(pt 608 304)
+)
+(connector
+	(pt 328 320)
+	(pt 608 320)
+)
+(connector
+	(pt 328 336)
+	(pt 608 336)
+)
+(connector
+	(pt 328 352)
+	(pt 608 352)
+)
+(connector
+	(pt 328 368)
+	(pt 608 368)
+)
+(connector
+	(pt 328 384)
+	(pt 608 384)
+)
+(connector
+	(pt 328 400)
+	(pt 608 400)
+)
+(connector
+	(pt 328 416)
+	(pt 608 416)
+)
+(connector
+	(pt 328 432)
+	(pt 608 432)
+)
+(connector
+	(pt 328 448)
+	(pt 608 448)
+)
+(connector
+	(pt 328 464)
+	(pt 608 464)
+)
+(connector
+	(pt 328 480)
+	(pt 608 480)
+)
+(connector
+	(pt 328 496)
+	(pt 608 496)
+)
+(connector
+	(pt 328 512)
+	(pt 608 512)
+)
+(connector
+	(pt 328 528)
+	(pt 608 528)
+)
+(connector
+	(pt 328 544)
+	(pt 608 544)
+)
+(connector
+	(pt 328 560)
+	(pt 608 560)
+)
+(connector
+	(pt 328 576)
+	(pt 608 576)
+)
+(connector
+	(pt 576 32)
+	(pt 576 64)
+)
+(connector
+	(pt 576 64)
+	(pt 608 64)
 )
 (junction (pt 72 560))
 (junction (pt 72 544))
